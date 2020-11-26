@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAUNTED HOUSE</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    body {
+        font-family: 'Permanent Marker', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('pics/Desktop\ -\ 1.png');
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        top: 5px;
+        left: 34px;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+
+    .center {
+        display: block;
+        width: 80%;
+        top: 5px;
+        margin: 5px auto;
+        color: rgb(255, 0, 0);
+        font-size: 25px;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 5px;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding: 20px 30px;
+    }
+
+    .navbar li a:active {
+        text-decoration: underline;
+    }
+
+    .navbar li a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(2, 2, 19);
+        padding: 4px 14px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font: size 30px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rosybrown;
+    }
+
+    .check {
+        width: 98%;
+        margin: 60px 7px;
+
+    }
+
+    .consumer {
+        border: 2px solid rgb(255, 0, 0);
+        padding: 8px;
+        width: 50%;
+        border-radius: 30px;
+        float: left;
+    }
+
+    .partner {
+        border: 2px solid rgb(255, 0, 0);
+        padding: 8px;
+        width: 45%;
+        border-radius: 30px;
+        float: right;
+    }
+
+    .contain {
+        margin: 400px 5px;
+        font-size: 20px;
+    }
+
+    .review li {
+        border: 2px solid red;
+        margin: 20px 2px;
+        display: inline-block;
+        border: 75px;
+        width: 30%;
+        font-size: 20px;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="pics/NEW LOGO.png" alt="">
+            <div>HAUNTED HOUSE</div>
+            <!-- left will be at left -->
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Hunt-spots</a></li>
+                <li><a href="#">My Den</a></li>
+                <li><a href="#">New Traps</a></li>
+                <li><a href="#">Ghost community</a></li>
+                <li><a href="#">Contact ghostman</a></li>
+            </ul>
+            <!-- navigation bar will be at center -->
+        </div>
+        <div class="right">
+            <span><button class="btn">Sign in/Log in</button></span>
+            <span><button class="btn">Watch demo video</button></span>
+        </div>
+    </header>
+    <div class="check">
+        <div class="consumer">
+            <h1>Get a freaking goosebump experience in your own city.</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter your number">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your pin-code">
+                </div>
+                <div>submit your oath and a ghostman will trace you soon!</div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="partner">
+            <h1>Partner with us and earn for your old property</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter your number">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your pin-code">
+                </div>
+                <div>Mark your property and we will make it cursed soon!</div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="contain">
+        <h1 class="confession">Scary confessions</h1>
+        <ul class="review">
+            <li>
+                <div><img src="pics/rahul 1.png" alt=""></div>
+                <div>
+                    <h1>Rahul Keshri</h1>
+                </div>
+                <div>I went with my wife to spend the quality time while experiencing the horror in real life. This
+                    place is so scary that we couldnot even sleep. I thank my wife that I returned safely. Now I visit
+                    temple everyday. This place is definitely not for honeymoon!</div>
+            </li>
+            <li>
+                <div><img src="pics/pappu.png" alt=""></div>
+                <div>
+                    <h1>Pappu Yadav</h1>
+                </div>
+                <div>My friends do not let me study in exam times. So I went there to study secretly but its so
+                    bone-chilling horror place that I could not even stay till check-out time! In hurry I forgot one of
+                    my books there.</div>
+            </li>
+            <li>
+                <div><img src="pics/ajeet bhai 1.png" alt=""></div>
+                <div>
+                    <h1>Ajeet Singh</h1>
+                </div>
+                <div>Nothing scary...My friends challanged me to visit one of their property. I went and followed my
+                    daily routine of sleeping at 10pm and waking up at 5 am. Then I did yoga, didnot experiece any
+                    sppoky event. Waste of money!</div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
